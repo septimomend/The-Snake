@@ -1,5 +1,7 @@
 // Game Over.cpp >> draw game window when game is over
 #include "stdafx.h"
+#include "Global.h"
+#include "The Snake Dec.h"
 
 using namespace std;
 

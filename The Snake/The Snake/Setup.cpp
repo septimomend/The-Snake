@@ -1,5 +1,7 @@
 // Setup.cpp >> defines all global variables and put start game data
 #include "stdafx.h"
+#include "Global.h"
+#include "The Snake Dec.h"
 
 void Setup()
 {

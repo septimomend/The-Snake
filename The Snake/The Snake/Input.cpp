@@ -1,5 +1,7 @@
 // Input.cpp >> captures data from the keyboard
 #include "stdafx.h"
+#include "Global.h"
+#include "The Snake Dec.h"
 
 using namespace std;
 

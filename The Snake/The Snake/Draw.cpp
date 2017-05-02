@@ -1,5 +1,7 @@
 // Draw.cpp >> defined function for drawing game field
 #include "stdafx.h"
+#include "Global.h"
+#include "The Snake Dec.h"
 
 using namespace std;
 

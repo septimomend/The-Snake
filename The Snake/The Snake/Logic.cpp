@@ -1,5 +1,6 @@
 // Logic.cpp >> defines game logic
 #include "stdafx.h"
+#include "Global.h"
 #include "The Snake Dec.h"
 
 using namespace std;

@@ -1,10 +1,36 @@
 // The Snake.cpp : Defines the entry point for the console application.
 //
-
 #include "stdafx.h"
-#include "The Snake Dec.h"
+#include "Global.h"
 
-using namespace std;
+using namespace std; 
+// Global variables
+//
+bool gameOver; // end of game
+bool isHard; // true if difficulty of game is hard
+bool escape; // true if exit from game
+const int width = 25; // width of game window
+const int height = 25; // height of game window
+					   // variables for coordinate of snake, snake's tail and food
+					   //
+int x, y;
+int foodX, foodY;
+int tailX[100], tailY[100];
+
+int score; // score is added when snake eats food
+int nTail; // global variable is initialized as 0 if there is no initialization
+		   // nTail is a size of snake
+
+		   // enum structure represents direction
+		   //
+snakeDirection dir; // enum object
+
+//
+void Setup();
+void Draw();
+void GameOver();
+void Input();
+void Logic();
 
 int main()
 {
