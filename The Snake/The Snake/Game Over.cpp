@@ -10,7 +10,7 @@ void GameOver()
 	// create game window
 	//
 	system("cls"); // clear window
-	cout << "\n\n\n";
+	cout << "by I. Chapkailo\n\n";
 	cout << "\t\t\t" << " ";
 	for (int k = 0; k <= 13; k++)
 		cout << (char)220;
