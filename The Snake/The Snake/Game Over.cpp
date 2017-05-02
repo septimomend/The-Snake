@@ -21,9 +21,9 @@ void GameOver()
 		cout << (char)223;
 	cout << endl;
 	if (isHard)
-		cout << "\t\t\tScore: " << score << "\t  Hard mode" << endl;
+		cout << "\n\t\t\tScore: " << score << "\t  Hard mode" << endl;
 	else
-		cout << "\t\t\tScore: " << score << "\tNormal mode" << endl;
+		cout << "\n\t\t\tScore: " << score << "\tNormal mode" << endl;
 
 	// draw upper wall
 	//

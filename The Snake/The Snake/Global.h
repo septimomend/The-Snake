@@ -8,9 +8,10 @@ extern bool gameOver; // end of game
 extern bool isHard; // true if difficulty of game is hard
 extern bool escape; // true if exit from game
 extern const int width; // width of game window
-extern const int height; // height of game window
- 					   // variables for coordinate of snake, snake's tail and food
- 					   //
+extern const int height; // height of game windo
+						 
+// variables for coordinate of snake, snake's tail and food
+//
 extern int x, y;
 extern int foodX, foodY;
 extern int tailX[100], tailY[100];
