@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClCompile Include="Draw.cpp" />
     <ClCompile Include="Game Over.cpp" />
+    <ClCompile Include="Input.cpp" />
     <ClCompile Include="Setup.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
